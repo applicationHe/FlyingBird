@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  FlyingBird
 //
 //  Created by apple on 16/5/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
-

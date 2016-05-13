@@ -9,12 +9,38 @@
 /* Begin PBXBuildFile section */
 		1840E9D71CE56A4C003632FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840E9D61CE56A4C003632FB /* main.m */; };
 		1840E9DA1CE56A4C003632FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840E9D91CE56A4C003632FB /* AppDelegate.m */; };
-		1840E9DD1CE56A4C003632FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840E9DC1CE56A4C003632FB /* ViewController.m */; };
 		1840E9E01CE56A4C003632FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1840E9DE1CE56A4C003632FB /* Main.storyboard */; };
 		1840E9E21CE56A4C003632FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1840E9E11CE56A4C003632FB /* Assets.xcassets */; };
 		1840E9E51CE56A4C003632FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1840E9E31CE56A4C003632FB /* LaunchScreen.storyboard */; };
 		1840E9F01CE56A4C003632FB /* FlyingBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840E9EF1CE56A4C003632FB /* FlyingBirdTests.m */; };
 		1840E9FB1CE56A4C003632FB /* FlyingBirdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840E9FA1CE56A4C003632FB /* FlyingBirdUITests.m */; };
+		1840EA0A1CE56ACB003632FB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840EA091CE56ACB003632FB /* MainViewController.m */; };
+		1840EA0E1CE56C10003632FB /* SoundTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840EA0D1CE56C10003632FB /* SoundTool.m */; };
+		1840EA101CE57074003632FB /* sounds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA0F1CE57074003632FB /* sounds.bundle */; };
+		1840EA291CE57099003632FB /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA121CE57099003632FB /* 06.png */; };
+		1840EA2A1CE57099003632FB /* 07.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA131CE57099003632FB /* 07.png */; };
+		1840EA2B1CE57099003632FB /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA141CE57099003632FB /* 08.png */; };
+		1840EA2C1CE57099003632FB /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA151CE57099003632FB /* back.png */; };
+		1840EA2D1CE57099003632FB /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA161CE57099003632FB /* bg.png */; };
+		1840EA2E1CE57099003632FB /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA171CE57099003632FB /* bird1.png */; };
+		1840EA2F1CE57099003632FB /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA181CE57099003632FB /* bird2.png */; };
+		1840EA301CE57099003632FB /* bird3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA191CE57099003632FB /* bird3.png */; };
+		1840EA311CE57099003632FB /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA1A1CE57099003632FB /* gameover.png */; };
+		1840EA321CE57099003632FB /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA1B1CE57099003632FB /* light.png */; };
+		1840EA331CE57099003632FB /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA1C1CE57099003632FB /* main.png */; };
+		1840EA341CE57099003632FB /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA1D1CE57099003632FB /* menu.png */; };
+		1840EA351CE57099003632FB /* night.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA1E1CE57099003632FB /* night.png */; };
+		1840EA361CE57099003632FB /* pipe.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA1F1CE57099003632FB /* pipe.png */; };
+		1840EA371CE57099003632FB /* rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA201CE57099003632FB /* rank.png */; };
+		1840EA381CE57099003632FB /* rate.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA211CE57099003632FB /* rate.png */; };
+		1840EA391CE57099003632FB /* ready.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA221CE57099003632FB /* ready.png */; };
+		1840EA3A1CE57099003632FB /* ready2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA231CE57099003632FB /* ready2.png */; };
+		1840EA3B1CE57099003632FB /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA241CE57099003632FB /* restart.png */; };
+		1840EA3C1CE57099003632FB /* road.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA251CE57099003632FB /* road.png */; };
+		1840EA3D1CE57099003632FB /* score.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA261CE57099003632FB /* score.png */; };
+		1840EA3E1CE57099003632FB /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA271CE57099003632FB /* start.png */; };
+		1840EA3F1CE57099003632FB /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA281CE57099003632FB /* tap.png */; };
+		1840EA421CE57180003632FB /* DataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840EA411CE57180003632FB /* DataTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +65,6 @@
 		1840E9D61CE56A4C003632FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1840E9D81CE56A4C003632FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1840E9D91CE56A4C003632FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1840E9DB1CE56A4C003632FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1840E9DC1CE56A4C003632FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1840E9DF1CE56A4C003632FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1840E9E11CE56A4C003632FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1840E9E41CE56A4C003632FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +75,37 @@
 		1840E9F61CE56A4C003632FB /* FlyingBirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingBirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1840E9FA1CE56A4C003632FB /* FlyingBirdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyingBirdUITests.m; sourceTree = "<group>"; };
 		1840E9FC1CE56A4C003632FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1840EA081CE56ACB003632FB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1840EA091CE56ACB003632FB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1840EA0C1CE56C10003632FB /* SoundTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundTool.h; sourceTree = "<group>"; };
+		1840EA0D1CE56C10003632FB /* SoundTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundTool.m; sourceTree = "<group>"; };
+		1840EA0F1CE57074003632FB /* sounds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = sounds.bundle; sourceTree = "<group>"; };
+		1840EA121CE57099003632FB /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		1840EA131CE57099003632FB /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07.png; sourceTree = "<group>"; };
+		1840EA141CE57099003632FB /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08.png; sourceTree = "<group>"; };
+		1840EA151CE57099003632FB /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		1840EA161CE57099003632FB /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		1840EA171CE57099003632FB /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1.png; sourceTree = "<group>"; };
+		1840EA181CE57099003632FB /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird2.png; sourceTree = "<group>"; };
+		1840EA191CE57099003632FB /* bird3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird3.png; sourceTree = "<group>"; };
+		1840EA1A1CE57099003632FB /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		1840EA1B1CE57099003632FB /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
+		1840EA1C1CE57099003632FB /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		1840EA1D1CE57099003632FB /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		1840EA1E1CE57099003632FB /* night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = night.png; sourceTree = "<group>"; };
+		1840EA1F1CE57099003632FB /* pipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe.png; sourceTree = "<group>"; };
+		1840EA201CE57099003632FB /* rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rank.png; sourceTree = "<group>"; };
+		1840EA211CE57099003632FB /* rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rate.png; sourceTree = "<group>"; };
+		1840EA221CE57099003632FB /* ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready.png; sourceTree = "<group>"; };
+		1840EA231CE57099003632FB /* ready2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready2.png; sourceTree = "<group>"; };
+		1840EA241CE57099003632FB /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
+		1840EA251CE57099003632FB /* road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = road.png; sourceTree = "<group>"; };
+		1840EA261CE57099003632FB /* score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = score.png; sourceTree = "<group>"; };
+		1840EA271CE57099003632FB /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		1840EA281CE57099003632FB /* tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap.png; sourceTree = "<group>"; };
+		1840EA401CE57180003632FB /* DataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTool.h; sourceTree = "<group>"; };
+		1840EA411CE57180003632FB /* DataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTool.m; sourceTree = "<group>"; };
+		1840EA431CE57450003632FB /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +156,14 @@
 		1840E9D41CE56A4C003632FB /* FlyingBird */ = {
 			isa = PBXGroup;
 			children = (
+				1840EA111CE5708D003632FB /* Resoure */,
+				1840EA0F1CE57074003632FB /* sounds.bundle */,
+				1840EA0B1CE56BB6003632FB /* Tool */,
 				1840E9D81CE56A4C003632FB /* AppDelegate.h */,
 				1840E9D91CE56A4C003632FB /* AppDelegate.m */,
-				1840E9DB1CE56A4C003632FB /* ViewController.h */,
-				1840E9DC1CE56A4C003632FB /* ViewController.m */,
+				1840EA431CE57450003632FB /* Common.h */,
+				1840EA081CE56ACB003632FB /* MainViewController.h */,
+				1840EA091CE56ACB003632FB /* MainViewController.m */,
 				1840E9DE1CE56A4C003632FB /* Main.storyboard */,
 				1840E9E11CE56A4C003632FB /* Assets.xcassets */,
 				1840E9E31CE56A4C003632FB /* LaunchScreen.storyboard */,
@@ -138,6 +197,47 @@
 				1840E9FC1CE56A4C003632FB /* Info.plist */,
 			);
 			path = FlyingBirdUITests;
+			sourceTree = "<group>";
+		};
+		1840EA0B1CE56BB6003632FB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1840EA0C1CE56C10003632FB /* SoundTool.h */,
+				1840EA0D1CE56C10003632FB /* SoundTool.m */,
+				1840EA401CE57180003632FB /* DataTool.h */,
+				1840EA411CE57180003632FB /* DataTool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		1840EA111CE5708D003632FB /* Resoure */ = {
+			isa = PBXGroup;
+			children = (
+				1840EA121CE57099003632FB /* 06.png */,
+				1840EA131CE57099003632FB /* 07.png */,
+				1840EA141CE57099003632FB /* 08.png */,
+				1840EA151CE57099003632FB /* back.png */,
+				1840EA161CE57099003632FB /* bg.png */,
+				1840EA171CE57099003632FB /* bird1.png */,
+				1840EA181CE57099003632FB /* bird2.png */,
+				1840EA191CE57099003632FB /* bird3.png */,
+				1840EA1A1CE57099003632FB /* gameover.png */,
+				1840EA1B1CE57099003632FB /* light.png */,
+				1840EA1C1CE57099003632FB /* main.png */,
+				1840EA1D1CE57099003632FB /* menu.png */,
+				1840EA1E1CE57099003632FB /* night.png */,
+				1840EA1F1CE57099003632FB /* pipe.png */,
+				1840EA201CE57099003632FB /* rank.png */,
+				1840EA211CE57099003632FB /* rate.png */,
+				1840EA221CE57099003632FB /* ready.png */,
+				1840EA231CE57099003632FB /* ready2.png */,
+				1840EA241CE57099003632FB /* restart.png */,
+				1840EA251CE57099003632FB /* road.png */,
+				1840EA261CE57099003632FB /* score.png */,
+				1840EA271CE57099003632FB /* start.png */,
+				1840EA281CE57099003632FB /* tap.png */,
+			);
+			name = Resoure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +343,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1840EA341CE57099003632FB /* menu.png in Resources */,
+				1840EA321CE57099003632FB /* light.png in Resources */,
+				1840EA2E1CE57099003632FB /* bird1.png in Resources */,
+				1840EA2A1CE57099003632FB /* 07.png in Resources */,
+				1840EA291CE57099003632FB /* 06.png in Resources */,
+				1840EA2D1CE57099003632FB /* bg.png in Resources */,
+				1840EA351CE57099003632FB /* night.png in Resources */,
 				1840E9E51CE56A4C003632FB /* LaunchScreen.storyboard in Resources */,
+				1840EA2F1CE57099003632FB /* bird2.png in Resources */,
+				1840EA101CE57074003632FB /* sounds.bundle in Resources */,
+				1840EA2C1CE57099003632FB /* back.png in Resources */,
+				1840EA381CE57099003632FB /* rate.png in Resources */,
+				1840EA3F1CE57099003632FB /* tap.png in Resources */,
+				1840EA3E1CE57099003632FB /* start.png in Resources */,
+				1840EA3B1CE57099003632FB /* restart.png in Resources */,
+				1840EA361CE57099003632FB /* pipe.png in Resources */,
+				1840EA391CE57099003632FB /* ready.png in Resources */,
+				1840EA371CE57099003632FB /* rank.png in Resources */,
+				1840EA311CE57099003632FB /* gameover.png in Resources */,
+				1840EA3C1CE57099003632FB /* road.png in Resources */,
+				1840EA3A1CE57099003632FB /* ready2.png in Resources */,
+				1840EA301CE57099003632FB /* bird3.png in Resources */,
+				1840EA331CE57099003632FB /* main.png in Resources */,
 				1840E9E21CE56A4C003632FB /* Assets.xcassets in Resources */,
+				1840EA3D1CE57099003632FB /* score.png in Resources */,
 				1840E9E01CE56A4C003632FB /* Main.storyboard in Resources */,
+				1840EA2B1CE57099003632FB /* 08.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +394,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1840E9DD1CE56A4C003632FB /* ViewController.m in Sources */,
 				1840E9DA1CE56A4C003632FB /* AppDelegate.m in Sources */,
+				1840EA421CE57180003632FB /* DataTool.m in Sources */,
+				1840EA0E1CE56C10003632FB /* SoundTool.m in Sources */,
+				1840EA0A1CE56ACB003632FB /* MainViewController.m in Sources */,
 				1840E9D71CE56A4C003632FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlyingBird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yiyuangou.FlyingBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlyingBird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yiyuangou.FlyingBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
