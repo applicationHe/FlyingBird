@@ -41,6 +41,12 @@
 		1840EA3E1CE57099003632FB /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA271CE57099003632FB /* start.png */; };
 		1840EA3F1CE57099003632FB /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA281CE57099003632FB /* tap.png */; };
 		1840EA421CE57180003632FB /* DataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840EA411CE57180003632FB /* DataTool.m */; };
+		1840EA461CE57CFB003632FB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840EA451CE57CFB003632FB /* GameViewController.m */; };
+		1840EA491CE57D0E003632FB /* RateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840EA481CE57D0E003632FB /* RateViewController.m */; };
+		1840EA4C1CE57D1C003632FB /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840EA4B1CE57D1C003632FB /* RankViewController.m */; };
+		1840EA501CE57D50003632FB /* GameOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840EA4F1CE57D50003632FB /* GameOverView.m */; };
+		1840EA521CE5B99C003632FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1840EA511CE5B99C003632FB /* Images.xcassets */; };
+		18D1DBF71CE5BBC700C9591B /* login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D1DBF61CE5BBC700C9591B /* login.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +112,16 @@
 		1840EA401CE57180003632FB /* DataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTool.h; sourceTree = "<group>"; };
 		1840EA411CE57180003632FB /* DataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTool.m; sourceTree = "<group>"; };
 		1840EA431CE57450003632FB /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		1840EA441CE57CFB003632FB /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		1840EA451CE57CFB003632FB /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		1840EA471CE57D0E003632FB /* RateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateViewController.h; sourceTree = "<group>"; };
+		1840EA481CE57D0E003632FB /* RateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateViewController.m; sourceTree = "<group>"; };
+		1840EA4A1CE57D1C003632FB /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
+		1840EA4B1CE57D1C003632FB /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		1840EA4E1CE57D50003632FB /* GameOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverView.h; sourceTree = "<group>"; };
+		1840EA4F1CE57D50003632FB /* GameOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverView.m; sourceTree = "<group>"; };
+		1840EA511CE5B99C003632FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18D1DBF61CE5BBC700C9591B /* login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,15 +175,23 @@
 				1840EA111CE5708D003632FB /* Resoure */,
 				1840EA0F1CE57074003632FB /* sounds.bundle */,
 				1840EA0B1CE56BB6003632FB /* Tool */,
+				1840EA4D1CE57D35003632FB /* View */,
 				1840E9D81CE56A4C003632FB /* AppDelegate.h */,
 				1840E9D91CE56A4C003632FB /* AppDelegate.m */,
 				1840EA431CE57450003632FB /* Common.h */,
 				1840EA081CE56ACB003632FB /* MainViewController.h */,
 				1840EA091CE56ACB003632FB /* MainViewController.m */,
+				1840EA441CE57CFB003632FB /* GameViewController.h */,
+				1840EA451CE57CFB003632FB /* GameViewController.m */,
+				1840EA471CE57D0E003632FB /* RateViewController.h */,
+				1840EA481CE57D0E003632FB /* RateViewController.m */,
+				1840EA4A1CE57D1C003632FB /* RankViewController.h */,
+				1840EA4B1CE57D1C003632FB /* RankViewController.m */,
 				1840E9DE1CE56A4C003632FB /* Main.storyboard */,
 				1840E9E11CE56A4C003632FB /* Assets.xcassets */,
 				1840E9E31CE56A4C003632FB /* LaunchScreen.storyboard */,
 				1840E9E61CE56A4C003632FB /* Info.plist */,
+				1840EA511CE5B99C003632FB /* Images.xcassets */,
 				1840E9D51CE56A4C003632FB /* Supporting Files */,
 			);
 			path = FlyingBird;
@@ -213,6 +237,7 @@
 		1840EA111CE5708D003632FB /* Resoure */ = {
 			isa = PBXGroup;
 			children = (
+				18D1DBF61CE5BBC700C9591B /* login.jpg */,
 				1840EA121CE57099003632FB /* 06.png */,
 				1840EA131CE57099003632FB /* 07.png */,
 				1840EA141CE57099003632FB /* 08.png */,
@@ -238,6 +263,15 @@
 				1840EA281CE57099003632FB /* tap.png */,
 			);
 			name = Resoure;
+			sourceTree = "<group>";
+		};
+		1840EA4D1CE57D35003632FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1840EA4E1CE57D50003632FB /* GameOverView.h */,
+				1840EA4F1CE57D50003632FB /* GameOverView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,12 +380,14 @@
 				1840EA341CE57099003632FB /* menu.png in Resources */,
 				1840EA321CE57099003632FB /* light.png in Resources */,
 				1840EA2E1CE57099003632FB /* bird1.png in Resources */,
+				18D1DBF71CE5BBC700C9591B /* login.jpg in Resources */,
 				1840EA2A1CE57099003632FB /* 07.png in Resources */,
 				1840EA291CE57099003632FB /* 06.png in Resources */,
 				1840EA2D1CE57099003632FB /* bg.png in Resources */,
 				1840EA351CE57099003632FB /* night.png in Resources */,
 				1840E9E51CE56A4C003632FB /* LaunchScreen.storyboard in Resources */,
 				1840EA2F1CE57099003632FB /* bird2.png in Resources */,
+				1840EA521CE5B99C003632FB /* Images.xcassets in Resources */,
 				1840EA101CE57074003632FB /* sounds.bundle in Resources */,
 				1840EA2C1CE57099003632FB /* back.png in Resources */,
 				1840EA381CE57099003632FB /* rate.png in Resources */,
@@ -396,8 +432,12 @@
 			files = (
 				1840E9DA1CE56A4C003632FB /* AppDelegate.m in Sources */,
 				1840EA421CE57180003632FB /* DataTool.m in Sources */,
+				1840EA4C1CE57D1C003632FB /* RankViewController.m in Sources */,
 				1840EA0E1CE56C10003632FB /* SoundTool.m in Sources */,
 				1840EA0A1CE56ACB003632FB /* MainViewController.m in Sources */,
+				1840EA501CE57D50003632FB /* GameOverView.m in Sources */,
+				1840EA491CE57D0E003632FB /* RateViewController.m in Sources */,
+				1840EA461CE57CFB003632FB /* GameViewController.m in Sources */,
 				1840E9D71CE56A4C003632FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,6 +664,7 @@
 				1840EA011CE56A4C003632FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1840EA021CE56A4C003632FB /* Build configuration list for PBXNativeTarget "FlyingBirdTests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +673,7 @@
 				1840EA041CE56A4C003632FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1840EA051CE56A4C003632FB /* Build configuration list for PBXNativeTarget "FlyingBirdUITests" */ = {
 			isa = XCConfigurationList;
@@ -640,6 +682,7 @@
 				1840EA071CE56A4C003632FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

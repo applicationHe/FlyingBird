@@ -27,9 +27,13 @@
 -(SystemSoundID)loadSoundIdWithBundleName:(NSBundle *)bundle name:(NSString *)name
 {
     SystemSoundID soundId;
-    NSString * path = [bundle pathForResource:name ofType:@"mp3"];
-    NSURL * url = [NSURL fileURLWithPath:path];
-    AudioServicesCreateSystemSoundID((__bridge  CFURLRef)(url), &soundId);
+    
+    NSString *path = [bundle pathForResource:name ofType:@"mp3" ];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    
+    //提示：不需要硬记代码，可以直接输入url，然后让xcode帮我们修复代码，完成bridge的类型转换
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)(url), &soundId);
+    
     return soundId;
 }
 #pragma mark - 加载声音文件到数据字典

@@ -17,10 +17,10 @@
 #define kRankButtonW    100
 
 /**Rate按钮高度*/
-#define kRateButtonH    56
+#define kRateButtonH    60
 
 /**Rate按钮宽度*/
-#define kRateButtonW    70
+#define kRateButtonW    100
 
 /**Start按钮高度*/
 #define kStartButtonH   60

@@ -7,11 +7,18 @@
 //
 
 #import "MainViewController.h"
+#import "GameViewController.h"
+#import "RateViewController.h"
+#import "RankViewController.h"
 #import "Common.h"
 #import "DataTool.h"
 
 @interface MainViewController ()
-
+{
+    UILabel * bestScoreLabel;
+    
+    UILabel * scoreLabel;
+}
 @end
 
 @implementation MainViewController
@@ -23,27 +30,36 @@
     //初始化UI
     [self setupUI];
 }
-
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    bestScoreLabel.text = [NSString stringWithFormat:@"%zi",[DataTool integerForKey:kBestScoreKey]];
+    
+    scoreLabel.text = [NSString stringWithFormat:@"%zi",[DataTool integerForKey:kCurrentScoreKey]];
+}
 #pragma mark - Event Method
 /**
  *  点击了速度
  */
 -(void)onRateButtonClick{
-    NSLog(@"点击了速度");
+    RateViewController * rateVC = [[RateViewController alloc] init];
+    [self presentViewController:rateVC animated:YES completion:nil];
 }
 
 /**
  *  点击了开始
  */
 -(void)onStartButtonClick{
-   NSLog(@"点击了开始");
+    GameViewController * gameVC = [[GameViewController alloc] init];
+    [self presentViewController:gameVC animated:YES completion:nil];
 }
 
 /**
  *  点击了排行榜
  */
 -(void)onRankButtonClick{
-    NSLog(@"点击了排行榜");
+    RankViewController * rankVC = [[RankViewController alloc] init];
+    [self presentViewController:rankVC animated:YES completion:nil];
 }
 
 #pragma mark - Help Handle
@@ -87,7 +103,7 @@
     CGFloat bestY = 285;
     CGFloat bestW = 40;
     CGFloat bestH = 20;
-    UILabel * bestScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(bestX, bestY, bestW, bestH)];
+    bestScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(bestX, bestY, bestW, bestH)];
     bestScoreLabel.text = [NSString stringWithFormat:@"%zi",[DataTool integerForKey:kBestScoreKey]];
     bestScoreLabel.font = [UIFont fontWithName:@"Marker Felt" size:16];
     bestScoreLabel.textAlignment = NSTextAlignmentRight;
@@ -98,7 +114,7 @@
     CGFloat scoreY = 240;
     CGFloat scoreW = 40;
     CGFloat scoreH = 20;
-    UILabel * scoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(scoreX, scoreY, scoreW, scoreH)];
+    scoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(scoreX, scoreY, scoreW, scoreH)];
     scoreLabel.text = [NSString stringWithFormat:@"%zi",[DataTool integerForKey:kCurrentScoreKey]];
     scoreLabel.font = [UIFont fontWithName:@"Marker Felt" size:16];
     scoreLabel.textAlignment = NSTextAlignmentRight;
@@ -120,20 +136,19 @@
     
     //创建速度按钮
     UIButton *rateButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    CGFloat rateX = (kScreenWidth - kRateButtonW) / 2;
-    rateButton.frame = CGRectMake(rateX, 355, kRateButtonW, kRateButtonH);
+    rateButton.frame = CGRectMake((kScreenWidth-kRateButtonW)/2, 430, kRateButtonW, kRateButtonH);
     [rateButton setImage:[UIImage imageNamed:@"rate"] forState:UIControlStateNormal];
     [self.view addSubview:rateButton];
     
     //创建开始按钮
     UIButton *startButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    startButton.frame = CGRectMake(50, 430, kStartButtonW, kStartButtonH);
+    startButton.frame = CGRectMake((kScreenWidth-kStartButtonW)/2, 355, kStartButtonW, kStartButtonH);
     [startButton setImage:[UIImage imageNamed:@"start"] forState:UIControlStateNormal];
     [self.view addSubview:startButton];
     
     //创建排行榜按钮
     UIButton *rankButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    rankButton.frame = CGRectMake(170, 430, kRankButtonW, kRankButtonH);
+    rankButton.frame = CGRectMake((kScreenWidth-kRankButtonW)/2, 505, kRankButtonW, kRankButtonH);
     [rankButton setImage:[UIImage imageNamed:@"rank"] forState:UIControlStateNormal];
     [self.view addSubview:rankButton];
     
